@@ -1,0 +1,486 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.logo
+{
+
+  padding: 20px 40px;
+}
+.main
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+.head
+{
+ 
+
+background-image: url(https://ld-wp73.template-help.com/wordpress/prod_19755/v3/wp-content/uploads/2018/06/slide-05.png
+);
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 680px;
+}
+.list ul
+{
+
+  display: flex;
+  list-style: none;
+  
+}
+.list li a
+{
+  padding: 20px 30px;
+ 
+  color: black;
+  font-size:18px;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+
+.list ul li a:hover
+
+{
+ color: rgb(109, 167, 189);
+
+}
+.slow 
+{
+
+  text-align: left;
+  
+  font-size: 35px;
+  font-weight: 200;
+}
+.slow h1
+{
+  font-weight: 500;
+  padding: 20px 80px;
+}
+
+.slow h1:hover
+{
+color:  rgb(216, 92, 92);
+cursor: pointer;  
+transform: scale(1.02);
+cursor: pointer;  
+}
+.btn button
+{
+    padding: 10px 20px;
+    background-color: rgb(216, 92, 92); 
+    margin: 5px 50px;
+    font-size: 25px;
+    border: 3px sold black;
+    border-radius: 20px;
+}
+.btn button:hover
+{
+  background-color: rgb(109, 167, 189);
+  cursor: pointer;
+  box-shadow: black 10px 10px 15px;
+}
+
+/* AWARD section start here */
+.awd
+{
+  font-size: 25px;
+  text-align: center;
+  margin: 60px 30px;
+
+}
+
+.awd:hover
+{
+  cursor: pointer;  
+  color:  rgb(216, 92, 92);
+}
+.awriamges
+{
+
+   width: 600px;
+   height: 600px;
+  
+}
+.awriamges img
+{
+
+   width: 100%;
+   height: 100%; 
+   /* object-fit: cover; */
+}
+
+
+
+
+
+
+
+
+/* ABOUT Section start */
+
+
+.aboutsection h1
+{
+   
+   font-size: 40px;
+   font-weight: 800;
+   margin: 60px 30px;
+   text-align: center;
+
+}
+
+.aboutsection h1:hover
+{
+
+  cursor: pointer;  
+
+color:  rgb(216, 92, 92);
+}
+
+.aboutinfo{
+
+  width: 600px;
+  height: 400px;
+  margin: auto;
+ 
+  border-radius: 20px;
+
+}
+
+.aboutinfo:hover
+{
+
+  box-shadow: 10px 10px 20px rgb(216, 92, 92);
+  border: solid 5px  rgb(109, 167, 189);
+}
+.aboutinfo h2
+
+{
+ padding: 10px;
+  color: rgb(109, 167, 189);
+  text-align: center;
+  font-size: 55px;
+}
+
+
+.aboutinfo p
+{
+    padding: 20px 35px;
+    text-align: center;
+    color: black;
+   font-weight: 400;
+   font-size: 18px;
+  
+}
+
+.our h1
+{
+
+  font-size: 40px;
+  font-weight: 800;
+  margin: 60px 30px;
+  text-align: center;
+  padding: 30px;
+
+}
+.our h1:hover
+{
+
+  cursor: pointer;  
+
+color:  rgb(216, 92, 92);
+}
+/* 
+menu section start here */
+
+
+.menulay h1
+{
+
+  font-size: 40px;
+  font-weight: 800;
+  margin: 60px 30px;
+  text-align: center;
+
+}
+.menulay h1:hover
+{
+  cursor: pointer;  
+
+  color:  rgb(216, 92, 92);
+  }
+  .menuone h2
+  {
+    color: rgb(109, 167, 189);;
+    
+  }
+.menuone li h3
+{
+    font-size:16px ;
+
+}
+.menuone li h5
+{
+  font-size:12px ;
+  padding: 5px 0px;
+ 
+}
+.menuone 
+{
+ 
+padding: 10px 40px;
+}
+.picone
+{
+   width: 600px;
+   height: 500px;
+   
+
+}
+
+.picone img
+{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+}
+.flexmneu
+{
+  display: flex;
+  justify-content: space-around;
+ align-items: center;
+
+  
+}
+
+.pictwo
+{
+   width: 600px;
+   height: 500px;
+   
+
+}
+
+.pictwo img
+{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+}
+.flextwo
+{
+  display: flex;
+  justify-content: space-around;
+ align-items: center;
+}
+.menutwo h2
+{
+  color: rgb(109, 167, 189);;
+  
+}
+.menutwo li h3
+{
+  font-size:16px ;
+
+}
+.menutwo li h5
+{
+font-size:12px ;
+padding: 5px 0px;
+
+}
+.menubtn {
+  text-align: center;
+  margin: 40px 20px;
+  padding: 10px 20px;
+}
+.menubtn button {
+  background-color: rgb(216, 92, 92); 
+  padding: 10px 20px;
+  font-size: 25px;
+  border: 3px sold black;
+  border-radius: 20px;
+
+}
+.menubtn button:hover{
+
+  background-color: rgb(109, 167, 189);
+  cursor: pointer;
+  box-shadow: black 10px 10px 15px;
+}
+
+/* 
+our section start here */
+
+.ourmain
+{
+  
+  margin: 20px;
+  
+  
+}
+.ourmain h1
+{
+   
+   font-size: 40px;
+   font-weight: 800;
+   margin: 60px 30px;
+   text-align: center;
+
+}
+
+.ourmain h1:hover
+{
+
+  cursor: pointer;  
+
+color:  rgb(216, 92, 92);
+}
+.chef{
+
+ width: 350px;
+height: 670px;
+ border-radius: 30px 50px;
+ border: solid 5px  rgb(109, 167, 189);
+}
+.chef:hover
+{
+ 
+  box-shadow: 10px 10px 20px rgb(216, 92, 92);
+}
+.chifde
+{
+    width: 300px;
+    height:300px ;
+    margin: auto;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+.chifde img
+{
+    width: 100%;
+    height:100% ;
+    object-fit: cover;
+}
+
+.chifde h2
+{
+  text-align: center;
+  font-size: 25px;
+  padding: 5px 0px;
+}
+.chifde h3
+{
+  text-align: center;
+  font-size: 18px;
+  padding: 5px 0px;
+}
+
+.chifde p
+{
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 0px;
+}
+
+.fleximgs
+{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+
+
+}
+
+/* GALLERY Section start here */
+
+
+.galall h1
+
+{
+
+  font-size: 40px;
+  font-weight: 800;
+  margin: 60px 30px;
+  text-align: center;
+
+}
+.galall h1:hover
+{
+
+  cursor: pointer;  
+  color:  rgb(216, 92, 92);
+
+}
+
+.gall
+{
+width: 640px;
+align-items: center;
+
+}
+
+.gall img
+{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+
+}
+.flexgall
+{
+  display: flex;
+ align-items: center;
+ justify-content:space-evenly;
+ flex-wrap:wrap;
+ padding: 30px 40px;
+ 
+}
+
+/* booking and map start here */
+.table{
+
+  position: relative;
+}
+.table h1 {
+  text-align: center;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 75px;
+  margin: 60px 30px;
+  color: #00000030;
+}
+
+  .table h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 55px;
+    position: absolute;
+    top: 75px;
+    left: 41%;
+}
+.table h2:hover
+{
+
+  cursor: pointer;  
+  color:  rgb(216, 92, 92);
+
+}
+
+
+
