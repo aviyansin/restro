@@ -5,7 +5,7 @@ function Awards({awardimg}) {
    <>
    <div className='awd'>
 
-    <h1>AWARDS</h1>
+    <h1>AWARD</h1>
    </div>
    <div className='awriamges'>
    <img src={awardimg} alt="" />
